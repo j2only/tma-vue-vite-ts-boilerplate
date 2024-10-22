@@ -4,14 +4,14 @@
             <a href="https://ton.org/dev" target="_blank">
                 <img src="/tapps.png" class="logo" alt="TWA logo" />
             </a>
+            <a href="https://vuejs.org" target="_blank">
+                <img src="/vue.svg" class="logo" alt="Vue logo" />
+            </a>
             <a href="https://vitejs.dev" target="_blank">
                 <img src="/vite.svg" class="logo" alt="Vite logo" />
             </a>
-            <a href="https://vuejs.org" target="_blank">
-                <img src="/vue.svg" class="logo vue" alt="Vue logo" />
-            </a>
         </div>
-        <h1>TMA + Vite + Vue</h1>
+        <h1>TMA + Vue + Vite</h1>
         <div class="card">
             <button @click="incrementCount">
                 count is {{ count }}
