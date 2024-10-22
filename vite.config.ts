@@ -15,5 +15,6 @@ export default defineConfig({
     },
     build: {
         outDir: './docs'
-    }
+    },
+    base: '/tma-vue-vite-ts-boilerplate/'
 })
