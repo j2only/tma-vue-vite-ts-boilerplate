@@ -27,6 +27,7 @@
 
 <script setup lang="ts">
 import { ref } from "vue"
+import WebApp from '@twa-dev/sdk'
 
 const count = ref(0)
 
