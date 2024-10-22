@@ -26,10 +26,11 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from "vue"
 import WebApp from '@twa-dev/sdk'
+import { ref } from "vue"
 
 const count = ref(0)
+WebApp.expand()
 
 function incrementCount() {
     count.value++
